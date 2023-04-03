@@ -1,0 +1,22 @@
+.containerNavbar {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  background-color: rgb(1, 10, 17);
+  color: #fff;
+}
+
+.containerNavbar ul {
+  gap: "30px";
+}
+
+.containerNavbar ul li {
+  list-style: none;
+}
+
+.containerNavbar ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
