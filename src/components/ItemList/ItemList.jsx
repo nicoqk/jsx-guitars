@@ -1,4 +1,4 @@
-const ItemList = ({ bienvenido }) => {
+export const ItemList = ({ bienvenido }) => {
   bienvenido = "Bienvenido a la tienda de guitarras JSX Guitars";
   return (
     <div>
@@ -6,5 +6,3 @@ const ItemList = ({ bienvenido }) => {
     </div>
   );
 };
-
-export default ItemList;

@@ -8,7 +8,7 @@ export const Navbar = () => {
         src="https://res.cloudinary.com/dk9yniigh/image/upload/v1680557771/logo_jsx_kr9hai.jpg"
         alt="JSX Guitars - Guitarras y Bajos"
       />
-      <ul style={{ display: "flex", gap: "30px" }}>
+      <ul style={{ display: "flex", gap: "35px" }}>
         <li>Inicio</li>
         <li>Guitarras Eléctricas</li>
         <li>Guitarras Acústicas</li>
