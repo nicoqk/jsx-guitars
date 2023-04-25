@@ -13,9 +13,14 @@ import { Link } from "react-router-dom";
 
 const ItemCard = ({ item }) => {
   return (
-    <Card sx={{ width: 350, height: 700, margin: 3 }}>
+    <Card sx={{ width: 350, height: 650, margin: 3 }}>
       <CardMedia
-        sx={{ width: 220, height: 600 }}
+        sx={{
+          width: 220,
+          height: 450,
+          backgroundSize: "contain",
+          textAlign: "center",
+        }}
         image={item.img}
         title={item.title}
       />
