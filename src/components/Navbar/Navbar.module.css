@@ -4,8 +4,8 @@
   display: flex;
   justify-content: space-between;
   vertical-align: middle;
-  background-color: rgb(1, 10, 17);
-  color: #fff;
+  background-color: rgb(238, 247, 232);
+  color: #6ec1e3;
 }
 
 .containerNavbar ul {

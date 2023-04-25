@@ -1,8 +1,21 @@
-export const ItemList = ({ bienvenido }) => {
-  bienvenido = "Bienvenido a la tienda de guitarras JSX Guitars";
+import ItemCard from "./ItemCard";
+
+const ItemList = ({ items }) => {
   return (
-    <div>
-      <h2>{bienvenido}</h2>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "space-evenly",
+        flexWrap: "wrap",
+        minHeight: "90vh",
+        padding: "40px",
+      }}
+    >
+      {items.map((item) => {
+        return <ItemCard item={item} key={item.id} />;
+      })}
     </div>
   );
 };
+
+export default ItemList;
