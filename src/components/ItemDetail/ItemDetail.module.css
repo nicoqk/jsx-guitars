@@ -1,0 +1,27 @@
+.containerItemDetail {
+  width: 90%;
+  display: flex;
+  padding-top: 20px;
+  justify-content: left;
+  align-items: start;
+  gap: 10px;
+}
+
+.containerImage {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.containerImage > img {
+  width: 25%;
+  object-fit: cover;
+}
+.containerDetail {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #7f669d;
+}

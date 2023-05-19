@@ -1,6 +1,5 @@
 export const products = [
   {
-    id: 1,
     title: "Fender Telecaster",
     brand: "Fender",
     price: 1500,
@@ -11,18 +10,16 @@ export const products = [
     img: "https://res.cloudinary.com/dk9yniigh/image/upload/v1682164512/jsxguitars/fender_tele_yt0cgz.jpg",
   },
   {
-    id: 2,
     title: "Fender Stratocaster",
     brand: "Fender",
     price: 1800,
     stock: 10,
     description:
       "Fender Stratocaster, Microfonos SSS. Cuerpo Ash. Color Stunburst",
-    category: "Guitarras electricas",
+    category: "electricas",
     img: "https://res.cloudinary.com/dk9yniigh/image/upload/v1682164512/jsxguitars/fender_strat_i6vbrv.jpg",
   },
   {
-    id: 3,
     title: "Fender Mustang",
     brand: "Fender",
     price: 1700,
@@ -33,7 +30,6 @@ export const products = [
   },
 
   {
-    id: 4,
     title: "Gibson Les Paul",
     brand: "Gibson",
     price: 2500,
@@ -44,7 +40,6 @@ export const products = [
     img: "https://res.cloudinary.com/dk9yniigh/image/upload/v1682164513/jsxguitars/gibson_lespaul_sq0fi7.png",
   },
   {
-    id: 5,
     title: "Gibson SG",
     brand: "Gibson",
     price: 2300,
@@ -55,7 +50,6 @@ export const products = [
     img: "https://res.cloudinary.com/dk9yniigh/image/upload/v1682164513/jsxguitars/gibson_sg_uyiidx.png",
   },
   {
-    id: 6,
     title: "Ibanez RG421",
     brand: "Ibanez",
     price: 1400,
@@ -65,7 +59,6 @@ export const products = [
     img: "https://res.cloudinary.com/dk9yniigh/image/upload/v1682164513/jsxguitars/ibanez_rg421_hiobp8.png",
   },
   {
-    id: 7,
     title: "Jackson KVX",
     brand: "Jackson",
     price: 2900,
@@ -75,7 +68,6 @@ export const products = [
     img: "https://res.cloudinary.com/dk9yniigh/image/upload/v1682164513/jsxguitars/jackson_KVX-MG7_rw1zcp.png",
   },
   {
-    id: 8,
     title: "Fender Acoustic CD60",
     brand: "Fender",
     price: 350,
@@ -86,7 +78,6 @@ export const products = [
     img: "https://res.cloudinary.com/dk9yniigh/image/upload/v1682166955/jsxguitars/fender_acoustic_CD60_um5hgk.jpg",
   },
   {
-    id: 9,
     title: "Gibson J45",
     brand: "Gibson",
     price: 900,
@@ -97,7 +88,6 @@ export const products = [
     img: "https://res.cloudinary.com/dk9yniigh/image/upload/v1682166955/jsxguitars/gibson_acoustic_j45_epmq4y.png",
   },
   {
-    id: 10,
     title: "Taylor Baby",
     brand: "Taylor",
     price: 400,
@@ -107,7 +97,6 @@ export const products = [
     img: "https://res.cloudinary.com/dk9yniigh/image/upload/v1682166956/jsxguitars/taylor_acoustic_baby_huvjpj.png",
   },
   {
-    id: 11,
     title: "Martin D28",
     brand: "Martin & Co",
     price: 2300,
@@ -116,5 +105,16 @@ export const products = [
       "Guitarra Electroacustica Martin & Co. 6 cuerdas. Modelo D-28.",
     category: "acusticas",
     img: "https://res.cloudinary.com/dk9yniigh/image/upload/v1682166955/jsxguitars/martin_acoustic_D-28_f_jy9icj.jpg",
+  },
+
+  {
+    title: "Gibson 355",
+    brand: "Gibson",
+    price: 2300,
+    stock: 7,
+    description:
+      "Guitarra Electrica Gibson 355. Color Chery. la de Marty mcFly.",
+    category: "electricas",
+    img: "https://res.cloudinary.com/dk9yniigh/image/upload/v1682164513/jsxguitars/gibson_es355_iazuco.png",
   },
 ];

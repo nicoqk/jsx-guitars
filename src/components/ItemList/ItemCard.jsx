@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   Button,
   Card,
@@ -8,7 +7,6 @@ import {
   CardMedia,
   Typography,
 } from "@mui/material";
-
 import { Link } from "react-router-dom";
 
 const ItemCard = ({ item }) => {
@@ -37,7 +35,7 @@ const ItemCard = ({ item }) => {
       </CardContent>
       <CardActions style={{ height: 80 }}>
         <Link to={`/itemDetail/${item.id}`}>
-          <Button variant="outlined" size="small" style={{ padding: 1 }}>
+          <Button variant="outlined" size="small" style={{ padding: 2 }}>
             Mas info
           </Button>
         </Link>

@@ -1,12 +1,28 @@
-import React from "react";
-import styles from "./CartWidget.module.css";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import "./CartWidget.css";
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { CartContext } from "../../context/CartContext";
+
 const CartWidget = () => {
+  const { getTotalQuantity } = useContext(CartContext);
+
+  let total = getTotalQuantity();
+
   return (
-    <div className={styles.containerCartWidget}>
-      <ShoppingCartOutlinedIcon />
-      <span>5</span>
-    </div>
+    <Link to="/cart">
+      <div className="container-cart">
+        <ShoppingCartOutlinedIcon
+          style={{
+            fontSize: "2rem",
+            color: "black",
+          }}
+        />
+        <div className="bubble-counter">
+          <span>{total}</span>
+        </div>
+      </div>
+    </Link>
   );
 };
 

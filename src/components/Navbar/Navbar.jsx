@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import CartWidget from "../CartWidget/CartWidget";
 import styles from "./Navbar.module.css";
-import { Outlet, Link, useNavigate, NavLink } from "react-router-dom";
+import { Outlet, Link, useNavigate } from "react-router-dom";
 
 export const Navbar = () => {
   const navigate = useNavigate();

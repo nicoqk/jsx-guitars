@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import ItemList from "./ItemList";
-import { PropagateLoader } from "react-spinners";
+
 import { useParams } from "react-router-dom";
+
 import { database } from "../../firebaseConfig";
 import { getDocs, collection, query, where, addDoc } from "firebase/firestore";
 //import { products } from "../../productsMock";
@@ -47,13 +48,7 @@ const ItemListContainer = () => {
 
   return (
     <div>
-      {items.length === 0 ? (
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <PropagateLoader color="grey" size={40} />
-        </div>
-      ) : (
-        <ItemList items={items} />
-      )}
+      <ItemList items={items} />
     </div>
   );
 };
